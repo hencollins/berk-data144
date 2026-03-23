@@ -13,7 +13,7 @@ I started with some EDA and preprocessing. Cleaning the data in itself was a maj
 
 I then used scikit-learn to do an MLP classification of the probability of a UFO being spotted in one of those regions based on it's characteristics, what time it came into Earth's orbit, etc. I trained a few neural networks to perform this classification task, but landed on an `adam` solver and `1000` training iterations (not *too* computationally expensive), resulting in `10%` accuracy (REALLY bad I KNOW, but these are UFOs, c'mon...)
 
-As for clustering, there was no obvious correlation between sighting locations and the other UFO sighting features. Optimal k in kMeans clustering was 2, and there was no distinct difference in the locations of the two clusters. figures 🤷
+As for clustering, there was no obvious correlation between sighting locations and the other UFO sighting features. Optimal k in kMeans clustering was 2, and there was no distinct difference in the sighting locations between the two clusters. figures 🤷
 
 ### 🗃️ Files
 - `UFO-nn.ipynb` contains preprocessing and neural network training
