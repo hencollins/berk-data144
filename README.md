@@ -18,5 +18,5 @@ I then used scikit-learn to do an MLP classification of the probability of a UFO
 As for clustering, there was no obvious correlation between sighting locations and the other UFO sighting features. Optimal k in kMeans clustering was 2, and there was no distinct difference in the locations of the two clusters. figures 🤷
 
 ### 🗃️ Files
-- `UFO-nn` contains preprocessing and neural network training
-- `UFO-clustering` contains preprocessing and clustering visualizations
+- `UFO-nn.ipynb` contains preprocessing and neural network training
+- `UFO-clustering.ipynb` contains preprocessing and clustering visualizations
